@@ -53,7 +53,3 @@ def expire(exp_date=""):
 	return rows
 
 connect()
-#insert("Pippetes",789,321)
-#update(2,"Cow",999,888)
-#print(view())
-#print(expire())
