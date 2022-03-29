@@ -89,10 +89,6 @@ l2.grid(row=0,column=2, padx=4, sticky='nsew')
 l3 = Label(window,text='Exp Date (YYYY/MM/DD)')
 l3.grid(row=1,column=0, padx=4, sticky='nsew')
 
-l4 = Label(window,text='Barcode')
-l4.grid(row=1,column=2, padx=4, sticky='nsew')
-
-
 # Create Entry Boxes
 item_name_text = StringVar()
 e1 = Entry(window,textvariable=item_name_text)
@@ -105,11 +101,6 @@ e2.grid(row=0, column=3, padx=4, sticky='nsew')
 exp_date_text = StringVar()
 e3 = Entry(window,textvariable=exp_date_text)
 e3.grid(row=1, column=1, padx=4, sticky='nsew')
-
-barcode_text = StringVar()
-e4 = Entry(window,textvariable=barcode_text)
-e4.grid(row=1, column=3, padx=4, sticky='nsew')
-
 
 # Create Listbox
 list1=Listbox(window, height=6, width=35,)
