@@ -108,14 +108,14 @@ list1.grid(row=2, column=0, rowspan=6, columnspan=2, padx=10, sticky='nsew')
 
 # Create Vertical Scrollbar
 sb1=Scrollbar(window)
-sb1.grid(row=2, column=2, rowspan=6, sticky='ew')
+sb1.grid(row=2, column=2, rowspan=6, )
 
 list1.configure(yscrollcommand=sb1.set)
 sb1.configure(command=list1.yview)
 
 # Create Horizontal Scrollbar
 sb2=Scrollbar(window, orient='horizontal')
-sb2.grid(row=6, column=2, rowspan=4, sticky='ns')
+sb2.grid(row=6, column=2, rowspan=4, )
 
 list1.configure(xscrollcommand=sb2.set)
 sb2.configure(command=list1.xview)
