@@ -1,6 +1,6 @@
 # Inventory-App-Tkinter
 
-This app was built with Python, Tkinter, SQLite, and SQL. It allows the user to add items, remove items, delete items, and search for items. <br>
+This app was built with Python, Tkinter, SQLite, and SQL. It allows the user to add items, remove items, delete items, and search for items. <br><br>
 It also allows the user to dispaly items that are expired and edit or delete them. 
 
 
